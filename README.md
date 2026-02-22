@@ -23,15 +23,6 @@ The actual parsing and Markdown generation are fully handled by `xmindparser` it
 - `pip` available on your PATH
 - `xmindparser` (installed automatically on first run if missing)
 
-## Installation
-
-Clone this repository:
-
-```bash
-git clone https://github.com/fbrandao2k/xmind_batch_markdown_converter.git
-cd xmind_batch_markdown_converter
-```
-
 ## (Optional but recommended) Create a virtual environment:
 
 ```bash
@@ -45,6 +36,15 @@ python -m venv .venv
 
 # macOS/Linux
 source .venv/bin/activate
+```
+
+## Installation
+
+Clone this repository:
+
+```bash
+git clone https://github.com/fbrandao2k/xmind_batch_markdown_converter.git
+cd xmind_batch_markdown_converter
 ```
 
 Install `xmindparser` manually (or let the script do it on first run):
