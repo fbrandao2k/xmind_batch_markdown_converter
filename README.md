@@ -54,9 +54,9 @@ pip install xmindparser
 ```
 
 Usage
-1 - Create a folder called xmindFilesToBeConverted inside the project directory.
-2 - Put all your .xmind files inside that folder.
-3 - Run the script:
+* 1 - Create a folder called xmindFilesToBeConverted inside the project directory.
+* 2 - Put all your .xmind files inside that folder.
+* 3 - Run the script:
 
 ```bash
 python convert_xmind_to_markdown.py
@@ -99,19 +99,19 @@ You can rename this file (for example, to convert_xmind_to_markdown.py) and adju
 
 ## Notes and limitations
 All format and feature support comes from xmindparser itself, including:[web:17][web:23]
-- Support for Xmind legacy (8) and Xmind Zen/Pro file types.
-- Limitations such as not parsing some Pro features (Task info, audio notes), floating topics, certain relationships, summary and boundary info, and treating rich text as plain text.[web:17]
+* Support for Xmind legacy (8) and Xmind Zen/Pro file types.
+* Limitations such as not parsing some Pro features (Task info, audio notes), floating topics, certain relationships, summary and boundary info, and treating rich text as plain text.[web:17]
 For details, see the upstream project’s README and examples.[web:17]
 
 ## Future ideas
 This repo intentionally stays small and focused. Possible future improvements:
-- Add command-line arguments for:
--- Input directory
--- Output directory
--- Recursive folder traversal
-- Add a simple GUI wrapper.
-- Expose the conversion as an MCP server/tool so other clients can call it programmatically.
-- Add tests that validate generated Markdown against sample Xmind files (using xmindparser’s example files).[web:20][web:30]
+* Add command-line arguments for:
+  *  Input directory
+  *  Output directory
+  *  Recursive folder traversal
+* Add a simple GUI wrapper.
+* Expose the conversion as an MCP server/tool so other clients can call it programmatically.
+* Add tests that validate generated Markdown against sample Xmind files (using xmindparser’s example files).[web:20][web:30]
 
 ## Credits
 All parsing and conversion logic is provided by:
